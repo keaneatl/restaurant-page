@@ -13,7 +13,7 @@ function shopTab(){
     const osThumbnail = document.createElement('img');
     origSlam.classList.add('headline');
     osThumbnail.classList.add('thumbnail')
-    osThumbnail.src = "../src/menu/thumbnail.png";
+    osThumbnail.src = "./images/menu/thumbnail.png";
     osHeader.textContent = "Original Slamburger";
     osDesc.textContent = "$6.99";
     origSlam.append(osHeader, osDesc, osThumbnail);
@@ -24,7 +24,7 @@ function shopTab(){
     const tsThumbnail = document.createElement('img');
     tripleSlam.classList.add('headline');
     tsThumbnail.classList.add('thumbnail')
-    tsThumbnail.src = "../src/menu/TripleDownDecker.png";
+    tsThumbnail.src = "./images/menu/TripleDownDecker.png";
     tsHeader.textContent = "Triple Slamburger";
     tsDesc.textContent = "$10.99";
     tripleSlam.append(tsHeader, tsDesc, tsThumbnail);
@@ -35,7 +35,7 @@ function shopTab(){
     const ccThumbnail = document.createElement('img');
     crispyChicken.classList.add('headline');
     ccThumbnail.classList.add('thumbnail')
-    ccThumbnail.src = "../src/menu/CrispyChicken.png";
+    ccThumbnail.src = "./images/menu/CrispyChicken.png";
     ccHeader.textContent = "Crispy Chicken SB";
     ccDesc.textContent = "$7.99";
     crispyChicken.append(ccHeader, ccDesc, ccThumbnail);
@@ -46,7 +46,7 @@ function shopTab(){
     const fwThumbnail = document.createElement('img');
     fishWich.classList.add('headline');
     fwThumbnail.classList.add('thumbnail')
-    fwThumbnail.src = "../src/menu/FishWich.png";
+    fwThumbnail.src = "./images/menu/FishWich.png";
     fwHeader.textContent = "Fish n Wich";
     fwDesc.textContent = "$5.99";
     fishWich.append(fwHeader, fwDesc, fwThumbnail);
@@ -57,7 +57,7 @@ function shopTab(){
     const sfThumbnail = document.createElement('img');
     signatureFries.classList.add('headline');
     sfThumbnail.classList.add('thumbnail')
-    sfThumbnail.src = "../src/menu/SignatureFries.png";
+    sfThumbnail.src = "./images/menu/SignatureFries.png";
     sfHeader.textContent = "Signature Fries";
     sfDesc.textContent = "$2.99";
     signatureFries.append(sfHeader, sfDesc, sfThumbnail);
@@ -68,7 +68,7 @@ function shopTab(){
     const cfThumbnail = document.createElement('img');
     curlyFries.classList.add('headline');
     cfThumbnail.classList.add('thumbnail')
-    cfThumbnail.src = "../src/menu/CurlyFries.png";
+    cfThumbnail.src = "./images/menu/CurlyFries.png";
     cfHeader.textContent = "Curly Fries";
     cfDesc.textContent = "$3.99";
     curlyFries.append(cfHeader, cfDesc, cfThumbnail);
@@ -80,7 +80,7 @@ function shopTab(){
     const nThumbnail = document.createElement('img');
     nuggets.classList.add('headline');
     nThumbnail.classList.add('thumbnail')
-    nThumbnail.src = "../src/menu/Nuggets.png";
+    nThumbnail.src = "./images/menu/Nuggets.png";
     nHeader.textContent = "Slamnuggs (6pcs)";
     nDesc.textContent = "$3.50";
     nuggets.append(nHeader, nDesc, nThumbnail);

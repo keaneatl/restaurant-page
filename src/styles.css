@@ -9,11 +9,11 @@ html {
 
 /* mobile styles */
 .logo{
+  height: 3.5rem;
   width: 3.5rem;
 }
 
 .header{
-  background-image: url("/src/restaurant-logo.png");
   display: flex;
   justify-content: space-evenly;
   align-items: center;

@@ -1,10 +1,6 @@
 import { pageLoad, loadHeader } from './pageLoad';
 import { shopTab } from './shop';
 import { contactTab } from './contact';
-import location from './location.png';
-import restuarantLogo from './restaurant-logo.png';
-import callIcon from './icons/call-svgrepo-com.svg';
-import locIcon from './icons/location-svgrepo-com.svg';
 import './styles.css';
 
 // shopTab();
