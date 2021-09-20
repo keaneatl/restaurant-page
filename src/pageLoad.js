@@ -9,6 +9,7 @@ function loadHeader(){
         const contactTab = document.createElement('li');
         logo.src = "../src/restaurant-logo.png";
 
+
         // add styles
         homeTab.classList.add('tabitems');
         shopTab.classList.add('tabitems');
