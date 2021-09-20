@@ -46,7 +46,7 @@ function pageLoad(){
         thumbnail.classList.add('thumbnail');
         
     // add content
-        thumbnail.src = "src/menu/thumbnail.png";
+        thumbnail.src = "../src/menu/thumbnail.png";
         intro.textContent = 'Welcome to the';
         header.textContent = 'BEST BURGER JOINT IN TOWN';
         description.textContent = 'Each burger is made from the freshest ingredients, from our organically grown cows. Each juicy bite will leave your mouth watering wanting more. Order now to experience the drip!';
